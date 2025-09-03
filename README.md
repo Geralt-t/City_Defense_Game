@@ -4,6 +4,6 @@ Công nghệ sử dụng:
 - ObjectPooling cho việc kiểm soát các viên đạn, quân địch và quân ta spawn ra
 - StatePattern cho các trạng thái của Enemy và Ally
 - ScriptableObject lưu trữ các dữ liệu tĩnh về chỉ số quân địch, quân ta, Data người chơi được lưu bằng PlayerPrefs
-- Singleton,Navmesh,...
+- Singleton,Navmesh,ParticleSystem ...
 
 Link video game: 
