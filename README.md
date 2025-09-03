@@ -7,3 +7,4 @@ Công nghệ sử dụng:
 - Singleton,Navmesh,ParticleSystem ...
 
 Link video game: 
+https://www.youtube.com/watch?v=0NOk770eg8w
