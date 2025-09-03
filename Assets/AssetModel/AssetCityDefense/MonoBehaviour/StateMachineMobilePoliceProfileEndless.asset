@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4383c670a05a4147e851391885df193, type: 3}
+  m_Name: StateMachineMobilePoliceProfileEndless
+  m_EditorClassIdentifier:
+  stateTransitions:
+  - state: {fileID: 11400000, guid: e48a6e82c6806c54690f8e13a0042a63, type: 2}
+    transitions:
+    - transistion: {fileID: 11400000, guid: d8af51ea95c8df6479c8d7112a000748, type: 2}
+      state: {fileID: 11400000, guid: adee2490e8e39404aa5f6f1f1b15bb34, type: 2}
+  - state: {fileID: 11400000, guid: 782a652ab2c9c1942959ce3bc9389183, type: 2}
+    transitions:
+    - transistion: {fileID: 11400000, guid: 7faf7813196277b44b9b937eeebbe33f, type: 2}
+      state: {fileID: 11400000, guid: 3f165456467d1b241b080042fffed2d7, type: 2}
+    - transistion: {fileID: 11400000, guid: 45c60e0f07337ff48ae762473c393be7, type: 2}
+      state: {fileID: 11400000, guid: adee2490e8e39404aa5f6f1f1b15bb34, type: 2}
+  - state: {fileID: 11400000, guid: adee2490e8e39404aa5f6f1f1b15bb34, type: 2}
+    transitions:
+    - transistion: {fileID: 11400000, guid: 7faf7813196277b44b9b937eeebbe33f, type: 2}
+      state: {fileID: 11400000, guid: 3f165456467d1b241b080042fffed2d7, type: 2}
+    - transistion: {fileID: 11400000, guid: 909f10b92bcf82a4bb405dd7aba4bfbe, type: 2}
+      state: {fileID: 11400000, guid: e48a6e82c6806c54690f8e13a0042a63, type: 2}
+    - transistion: {fileID: 11400000, guid: 9646fd124c03f264f80c4b73ce09cc76, type: 2}
+      state: {fileID: 11400000, guid: 782a652ab2c9c1942959ce3bc9389183, type: 2}
+  - state: {fileID: 11400000, guid: 3f165456467d1b241b080042fffed2d7, type: 2}
+    transitions:
+    - transistion: {fileID: 11400000, guid: 749561152ace87e4daac72a6822529a9, type: 2}
+      state: {fileID: 11400000, guid: 782a652ab2c9c1942959ce3bc9389183, type: 2}
+    - transistion: {fileID: 11400000, guid: bf10b36fe981e4b46b4d75bdd4ed6d29, type: 2}
+      state: {fileID: 11400000, guid: d662e6c8f26ea8b4596fabc91007483b, type: 2}
+  - state: {fileID: 11400000, guid: d662e6c8f26ea8b4596fabc91007483b, type: 2}
+    transitions:
+    - transistion: {fileID: 11400000, guid: 749561152ace87e4daac72a6822529a9, type: 2}
+      state: {fileID: 11400000, guid: 782a652ab2c9c1942959ce3bc9389183, type: 2}
+    - transistion: {fileID: 11400000, guid: dd7b401e5ae10ad4380dae4ef62994a5, type: 2}
+      state: {fileID: 11400000, guid: 3f165456467d1b241b080042fffed2d7, type: 2}
+    - transistion: {fileID: 11400000, guid: 909f10b92bcf82a4bb405dd7aba4bfbe, type: 2}
+      state: {fileID: 11400000, guid: e48a6e82c6806c54690f8e13a0042a63, type: 2}
+  InitialState: {fileID: 11400000, guid: 782a652ab2c9c1942959ce3bc9389183, type: 2}
+  framesBetweenUpdates: 12

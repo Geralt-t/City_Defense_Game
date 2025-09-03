@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d638d921505291812078889ba1ba66, type: 3}
+  m_Name: EndlessModeSettings
+  m_EditorClassIdentifier:
+  bonuses:
+  - {fileID: 11400000, guid: 921cb150dc73fea448c90ee6ec236cb1, type: 2}
+  - {fileID: 11400000, guid: ccaa7357da07c244689c71e0f952a68b, type: 2}
+  - {fileID: 11400000, guid: 4e298342f0227a948b54f2c66a52b020, type: 2}
+  - {fileID: 11400000, guid: a26fddcd2767e6c4494641f50e2c1d60, type: 2}
+  - {fileID: 11400000, guid: decff0fc437b8de4f96898c04fc897a9, type: 2}
+  - {fileID: 11400000, guid: 871b8e387a8214f418a3a6a9616e3b32, type: 2}
+  - {fileID: 11400000, guid: aebc483ff186f2540964cccdf9dab20b, type: 2}
+  - {fileID: 11400000, guid: f1e2f3ea6dc047948839d09ba3c7a5b1, type: 2}
+  - {fileID: 11400000, guid: 089b54331683a4d41ab4b5c036d108a5, type: 2}
+  - {fileID: 11400000, guid: 249890ae1fc90024eb6f0eec1289b466, type: 2}
+  barEnergy: 200
+  startEnergy: 200
+  energyPerWave: 50
+  allyLevelMultiplier: 1
+  ennemyLevelMultiplier: 112.09
+  enemyLvlPerWave:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.27889994
+      outSlope: 0.27889994
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.13345037
+    - serializedVersion: 3
+      time: 23.257164
+      value: 11.900917
+      inSlope: 0.9756405
+      outSlope: 0.9756405
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.13257281
+      outWeight: 0.0956004
+    - serializedVersion: 3
+      time: 50
+      value: 50
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08146594
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  allyMeleeFSMprofile: {fileID: 11400000, guid: 93b8d7814ec62ca40bbcc1b486d43a2c, type: 2}
+  debugBonus: {fileID: 0}
+  levelPerStep: 3

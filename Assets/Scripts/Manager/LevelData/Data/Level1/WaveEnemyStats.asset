@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e1e25ea5dbd2e14189e4700d0ce557b, type: 3}
+  m_Name: WaveEnemyStats
+  m_EditorClassIdentifier: 
+  delayTimeStartWave: 1
+  delayBetweenWave: 5
+  spawnPointsWithWaves:
+  - spawnPosition: {x: 17.78, y: 7.3, z: 17.72}
+    wave:
+      enemyMeelePrefab: {fileID: 1353594528739603, guid: 3e51a416a8c052549bec9294b4f18e22,
+        type: 3}
+      enemyMeeleCount: 5
+      enemyRangePrefab: {fileID: 1078403327049841, guid: 718371620f02e9840a283757067f5473,
+        type: 3}
+      enemyRangeCount: 0
+  - spawnPosition: {x: 25.88, y: 7.3, z: 13.57}
+    wave:
+      enemyMeelePrefab: {fileID: 1353594528739603, guid: 3e51a416a8c052549bec9294b4f18e22,
+        type: 3}
+      enemyMeeleCount: 5
+      enemyRangePrefab: {fileID: 1078403327049841, guid: 718371620f02e9840a283757067f5473,
+        type: 3}
+      enemyRangeCount: 0

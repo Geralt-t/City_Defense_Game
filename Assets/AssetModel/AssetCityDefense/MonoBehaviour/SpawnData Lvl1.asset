@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429ef358b70a640bb6465c6e8b5ed8ea, type: 3}
+  m_Name: SpawnData Lvl1
+  m_EditorClassIdentifier:
+  data:
+    settings: {fileID: 11400000, guid: 80c87ce4defb8294fa19e6c6777eaa04, type: 2}
+    level: 1
+    totalSpawn: 55
+    totalSpawnDuration: 13.877527
+    waves:
+    - spawnCount: 23
+      startDelay: 0
+      duration: 5.5453186
+      startTime: 0
+      haveStart: 0
+      haveEnd: 0
+      cohorts:
+      - spawnCount: 23
+        duration: 5.5453186
+        startDelay: 0
+        startTime: 0
+    - spawnCount: 17
+      startDelay: 0.8343048
+      duration: 3.0172818
+      startTime: 6.3796234
+      haveStart: 0
+      haveEnd: 0
+      cohorts:
+      - spawnCount: 17
+        duration: 3.0172818
+        startDelay: 0
+        startTime: 6.3796234
+    - spawnCount: 15
+      startDelay: 0.8849793
+      duration: 3.595643
+      startTime: 11.116189
+      haveStart: 0
+      haveEnd: 0
+      cohorts:
+      - spawnCount: 15
+        duration: 3.595643
+        startDelay: 0
+        startTime: 11.116189

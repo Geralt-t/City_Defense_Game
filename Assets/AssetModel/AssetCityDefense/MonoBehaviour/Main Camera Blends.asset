@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -960948103, guid: 248a19188c2dffaa949fefc5fd6f973a, type: 3}
+  m_Name: Main Camera Blends
+  m_EditorClassIdentifier:
+  m_CustomBlends:
+  - m_From: vCam Main
+    m_To: _VCamLevel
+    m_Blend:
+      m_Style: 1
+      m_Time: 0.8
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7405663
+          outSlope: 2.7405663
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.026678141
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: _VCamLevel
+    m_To: _VCamLevel
+    m_Blend:
+      m_Style: 1
+      m_Time: 1
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7405663
+          outSlope: 2.7405663
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.026678141
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: _VCamLevel
+    m_To: vCamUpgrade
+    m_Blend:
+      m_Style: 0
+      m_Time: 1
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7405663
+          outSlope: 2.7405663
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.026678141
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: vCamUpgrade
+    m_To: _VCamLevel
+    m_Blend:
+      m_Style: 1
+      m_Time: 0.8
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7405663
+          outSlope: 2.7405663
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.026678141
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: vCamLevel
+    m_To: vCam Main
+    m_Blend:
+      m_Style: 1
+      m_Time: 1.3
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7405663
+          outSlope: 2.7405663
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.026678141
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: vCamUpgrade
+    m_To: vCam Main
+    m_Blend:
+      m_Style: 1
+      m_Time: 2.5
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7405663
+          outSlope: 2.7405663
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.026678141
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+  - m_From: Zombie_Level_Vcam
+    m_To: vCamUpgrade
+    m_Blend:
+      m_Style: 1
+      m_Time: 0.5
+      m_CustomCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2.7405663
+          outSlope: 2.7405663
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.026678141
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94cf2c34a2e5014d78bf033c9c2880f, type: 3}
+  m_Name: ProgressionProfile_T6_Sniper
+  m_EditorClassIdentifier:
+  Ennemy: 0
+  baseUpgradePrice: 15
+  inGamePrice: 32
+  economySettings: {fileID: 11400000, guid: b1fd8074f5b5e2e42a0d77d39feecc99, type: 2}
+  unitGrowth: 1.415
+  unitUpgradePriceGrowth: 2
+  isAOE: 0
+  baseHp: 13
+  attackSpeed: 0.5
+  powerScale: 3
+  maxTier: 10
+  healthRateGrowth: 1.1902
+  unitStepLevelUp: 1.7
+  baseLoot: 5
+  lootRateGrowth: 1.15
+  enemyGrowth: 1.15
+  baseEnemyPower: 20
+  scalingSpeed: 1.5
+  EndlessBaseDps: 2
+  EndlessGrowthDps: 1.03
+  EndlessBaseHealth: 15
+  EndlessGrowthHealth: 1.03
+  damageToBase: 1
+  EndlessLoot: 0
+  levelPerTier: 3
+  LevelCountUntilNextTier: 2

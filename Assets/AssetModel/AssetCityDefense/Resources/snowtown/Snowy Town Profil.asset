@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c32a3ea880fc35980ee5a484f24e51, type: 3}
+  m_Name: Snowy Town Profil
+  m_EditorClassIdentifier:
+  environmentPrefab: {fileID: 11400000, guid: 381eae7bb558d0146998aa61d97c131b, type: 2}
+  cornersPrefab: {fileID: 11400000, guid: 5bca2c66720b1e94ab5bb645f8023f85, type: 2}
+  roadPrefab: {fileID: 11400000, guid: 025077ee123b0de45910a051023af639, type: 2}
+  groundPrefabs: {fileID: 11400000, guid: aa1774666bcf99945869424fba70603f, type: 2}
+  lastGroundPrefabs: {fileID: 11400000, guid: 7a6fcc29260d1704aae073a3320dbcc1, type: 2}
+  ObstaclePrefab: {fileID: 11400000, guid: 924d95321d520ad45b531769eee220b9, type: 2}
+  worldAmbiantParticle: {fileID: 1771208140556122, guid: 866f755798d0eb242bac706ae53bff52, type: 2}
+  obstaclePatternChance: 0.5
+  isAlwayRandom: 0
+  randomInSaveSeeds: 0
+  seed: 1433850126
+  savedSeed:
+  - 1924916034
+  units:
+  - {fileID: 11400000, guid: e984bc278edab794a9b90ed772e07c36, type: 2}
+  - {fileID: 11400000, guid: 75a61b718a20c154f91c4bec32434981, type: 2}
+  - {fileID: 11400000, guid: 1dd9f12b9bad7bb4e8af5e35e7b00acf, type: 2}

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f84464c925609bcd8fb45aeee2e13b3, type: 3}
+  m_Name: Endless Rewards
+  m_EditorClassIdentifier:
+  endlessModeSettings: {fileID: 11400000, guid: 3d269c34c20fee341948fced79a8cf56, type: 2}
+  allRewardPerStep:
+  - rewards:
+    - rewardType: 0
+      amount: 5
+    wave: 5
+    step: 1
+  - rewards:
+    - rewardType: 0
+      amount: 5
+    wave: 10
+    step: 2
+  - rewards:
+    - rewardType: 0
+      amount: 5
+    - rewardType: 2
+      amount: 1
+    wave: 15
+    step: 3
+  - rewards:
+    - rewardType: 0
+      amount: 7
+    wave: 20
+    step: 4
+  - rewards:
+    - rewardType: 0
+      amount: 10
+    - rewardType: 2
+      amount: 1
+    wave: 25
+    step: 5
+  - rewards:
+    - rewardType: 0
+      amount: 10
+    wave: 30
+    step: 6
+  - rewards:
+    - rewardType: 0
+      amount: 10
+    - rewardType: 4
+      amount: 1
+    wave: 35
+    step: 7
+  - rewards:
+    - rewardType: 0
+      amount: 10
+    - rewardType: 5
+      amount: 1
+    wave: 40
+    step: 8
+  - rewards:
+    - rewardType: 0
+      amount: 10
+    wave: 45
+    step: 9
+  - rewards:
+    - rewardType: 0
+      amount: 10
+    - rewardType: 2
+      amount: 1
+    wave: 50
+    step: 10
+  - rewards:
+    - rewardType: 0
+      amount: 15
+    wave: 55
+    step: 11
+  - rewards:
+    - rewardType: 2
+      amount: 2
+    wave: 60
+    step: 12
+  - rewards:
+    - rewardType: 0
+      amount: 15
+    wave: 65
+    step: 13
+  - rewards:
+    - rewardType: 0
+      amount: 15
+    wave: 70
+    step: 14
+  - rewards:
+    - rewardType: 2
+      amount: 1
+    - rewardType: 0
+      amount: 15
+    wave: 75
+    step: 15
+  - rewards:
+    - rewardType: 0
+      amount: 15
+    - rewardType: 2
+      amount: 1
+    - rewardType: 3
+      amount: 1
+    wave: 80
+    step: 16
+  - rewards:
+    - rewardType: 0
+      amount: 20
+    wave: 85
+    step: 17
+  - rewards:
+    - rewardType: 0
+      amount: 25
+    wave: 90
+    step: 18
+  - rewards:
+    - rewardType: 0
+      amount: 30
+    wave: 95
+    step: 19
+  - rewards:
+    - rewardType: 0
+      amount: 50
+    - rewardType: 6
+      amount: 0
+    wave: 100
+    step: 20
+  rewardIcons:
+  - {fileID: 21300000, guid: 67ccf21a3dbd7f14d8ac1a53f584e09d, type: 2}
+  - {fileID: 21300000, guid: 402c369d868b4f3409f4302d67ec5a2a, type: 2}
+  - {fileID: 21300000, guid: 46c6629e9ea00d84a929faf39e59c824, type: 2}
+  - {fileID: 21300000, guid: d2e9c76d3bf52d84f849f0d3314440df, type: 2}
+  - {fileID: 21300000, guid: d4b555a2ff04dc847ab53520ca47ced1, type: 2}
+  - {fileID: 21300000, guid: 924439d5f8afeb74192ea9db481f516e, type: 2}
+  - {fileID: 21300000, guid: 6e768a5469a87694598d8b16f11fa120, type: 2}
+  unlockableSkin: {fileID: 11400000, guid: a1a562b802cf1124d98dda91bae1375c, type: 2}

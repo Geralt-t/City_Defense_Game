@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e41297eff817a4d882c67a11ee3f5248, type: 3}
+  m_Name: SlotMachineResults_3
+  m_EditorClassIdentifier:
+  _reelsCsv: {fileID: 4900000, guid: c7e42b463e171c24caf63866fb37f90e, type: 3}
+  _id: 3
+  _weight: 700
+  _jackpot: 1
+  _jackpotSymbol: {fileID: 11400000, guid: b7e1f2297bed0464f94062dda642af6a, type: 2}
+  _vfxsPrefabs:
+  - {fileID: 198603274441603642, guid: 3b891bdabae2cc74da7a79fdbd0ff1a8, type: 2}
+  - {fileID: 198221151565010698, guid: 86995df644230074eadac8d7f19c3192, type: 2}
+  _rewardType: {fileID: 11400000, guid: 3333f885af301ee45bbf5df6be907c28, type: 2}
+  _rewardAmount: 1
+  _sfxReward:
+  - {fileID: 8300000, guid: bb5bc0c9985d90b4eba79195f69caa10, type: 3}
+  - {fileID: 8300000, guid: e33511dfdece5b646a30670ef94e445f, type: 3}

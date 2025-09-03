@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e8759024bf1b9cf370867f1d1234fe, type: 3}
+  m_Name: BarracksProfile_NoBarrackOldProg
+  m_EditorClassIdentifier:
+  skinLists:
+  - unitType: 4
+    skins:
+    - {fileID: 11400000, guid: 60bfa070cfc01214d8acff221ae66be4, type: 2}
+  - unitType: 2
+    skins:
+    - {fileID: 11400000, guid: 158be0a4ab96fca4ba0008427b027613, type: 2}
+  - unitType: 1
+    skins:
+    - {fileID: 11400000, guid: f662205fac5f2d64493a50cdc64c8f09, type: 2}
+  skinLevelPerTier: 3

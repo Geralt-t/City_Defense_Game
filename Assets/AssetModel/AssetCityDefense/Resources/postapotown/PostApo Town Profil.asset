@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c32a3ea880fc35980ee5a484f24e51, type: 3}
+  m_Name: PostApo Town Profil
+  m_EditorClassIdentifier:
+  environmentPrefab: {fileID: 11400000, guid: 4217425e2dfcdbe4da024684c8aebb2c, type: 2}
+  cornersPrefab: {fileID: 11400000, guid: 4217425e2dfcdbe4da024684c8aebb2c, type: 2}
+  roadPrefab: {fileID: 11400000, guid: ac0073356416e0b4e84b08fcb42a715c, type: 2}
+  groundPrefabs: {fileID: 11400000, guid: 0d80a6461ce16b844a98c199b97b0e90, type: 2}
+  lastGroundPrefabs: {fileID: 11400000, guid: a630c757dd617424b8f57844ab8b77ee, type: 2}
+  ObstaclePrefab: {fileID: 11400000, guid: 747326e17267cda49937f03fcfd513a3, type: 2}
+  worldAmbiantParticle: {fileID: 0}
+  obstaclePatternChance: 0.5
+  isAlwayRandom: 0
+  randomInSaveSeeds: 0
+  seed: 1433850126
+  savedSeed:
+  - 1924916034
+  units:
+  - {fileID: 11400000, guid: e984bc278edab794a9b90ed772e07c36, type: 2}
+  - {fileID: 11400000, guid: 75a61b718a20c154f91c4bec32434981, type: 2}
+  - {fileID: 11400000, guid: 1dd9f12b9bad7bb4e8af5e35e7b00acf, type: 2}
