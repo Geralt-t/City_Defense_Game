@@ -1,4 +1,4 @@
-Project là dự án cá nhân được thực hiện trong quá trình thực tập
+Project là dự án cá nhân được thực hiện trong quá trình thực tập, toàn bộ Asset được phía công ty thực tập hỗ trợ nên không thể public
 
 Công nghệ sử dụng:
 - ObjectPooling cho việc kiểm soát các viên đạn, quân địch và quân ta spawn ra
